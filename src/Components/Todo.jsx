@@ -9,7 +9,7 @@ import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
 import { makeStyles } from '@material-ui/core/styles';
 
-import db from '../firebase';
+import db from '../Firebase';
 
 
 function rand() {

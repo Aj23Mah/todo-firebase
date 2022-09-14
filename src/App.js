@@ -4,11 +4,12 @@ import Button from '@mui/material/Button';
 import Input from '@mui/material/Input';
 import SendIcon from '@mui/icons-material/Send';
 
+
 //import firebase files
-import db from './firebase';
+import db from './Firebase';
 import firebase from 'firebase';
 
-import Todo from './components/Todo';
+import Todo from './Components/Todo';
 
 function App() {
   const [todos, setTodos] = useState([])

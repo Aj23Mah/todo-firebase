@@ -1,6 +1,5 @@
 import firebase from 'firebase';
 
-
 const firebaseConfig = {
     apiKey: "AIzaSyBAMMS34mq2ueJvlA83SklaV7Fr8hc2kk0",
     authDomain: "ajaya-todo-app.firebaseapp.com",
@@ -12,10 +11,6 @@ const firebaseConfig = {
     measurementId: "G-7QJ6F71J0P"
   };
   
-
-
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-
 const db = firebaseApp.firestore();
-
 export default db;
